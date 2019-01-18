@@ -1,0 +1,338 @@
+{
+  "easy":{
+    "1":{
+      "0,0":{
+        "fixed": true,
+        "value": 5
+      },
+      "0,1":{
+        "fixed": true,
+        "value": 6
+      },
+      "0,2":{
+        "fixed": false,
+        "value": 0
+      },
+      "0,3":{
+        "fixed": true,
+        "value": 8
+      },
+      "0,4":{
+        "fixed": true,
+        "value": 4
+      },
+      "0,5":{
+        "fixed": true,
+        "value": 7
+      },
+      "0,6":{
+        "fixed": false,
+        "value": 0
+      },
+      "0,7":{
+        "fixed": false,
+        "value": 0
+      },
+      "0,8":{
+        "fixed": false,
+        "value": 0
+      },
+
+      "1,0":{
+        "fixed": true,
+        "value": 3
+      },
+      "1,1":{
+        "fixed": false,
+        "value": 0
+      },
+      "1,2":{
+        "fixed": true,
+        "value": 9
+      },
+      "1,3":{
+        "fixed": false,
+        "value": 0
+      },
+      "1,4":{
+        "fixed": false,
+        "value": 0
+      },
+      "1,5":{
+        "fixed": false,
+        "value": 0
+      },
+      "1,6":{
+        "fixed": true,
+        "value": 6
+      },
+      "1,7":{
+        "fixed": false,
+        "value": 0
+      },
+      "1,8":{
+        "fixed": false,
+        "value": 0
+      },
+
+      "2,0":{
+        "fixed": false,
+        "value": 0
+      },
+      "2,1":{
+        "fixed": false,
+        "value": 0
+      },
+      "2,2":{
+        "fixed": true,
+        "value": 8
+      },
+      "2,3":{
+        "fixed": false,
+        "value": 0
+      },
+      "2,4":{
+        "fixed": false,
+        "value": 0
+      },
+      "2,5":{
+        "fixed": false,
+        "value": 0
+      },
+      "2,6":{
+        "fixed": false,
+        "value": 0
+      },
+      "2,7":{
+        "fixed": false,
+        "value": 0
+      },
+      "2,8":{
+        "fixed": false,
+        "value": 0
+      },
+
+      "3,0":{
+        "fixed": false,
+        "value": 0
+      },
+      "3,1":{
+        "fixed": true,
+        "value": 1
+      },
+      "3,2":{
+        "fixed": false,
+        "value": 0
+      },
+      "3,3":{
+        "fixed": false,
+        "value": 0
+      },
+      "3,4":{
+        "fixed": true,
+        "value": 8
+      },
+      "3,5":{
+        "fixed": false,
+        "value": 0
+      },
+      "3,6":{
+        "fixed": false,
+        "value": 0
+      },
+      "3,7":{
+        "fixed": true,
+        "value": 4
+      },
+      "3,8":{
+        "fixed": false,
+        "value": 0
+      },
+
+      "4,0":{
+        "fixed": true,
+        "value": 7
+      },
+      "4,1":{
+        "fixed": true,
+        "value": 9
+      },
+      "4,2":{
+        "fixed": false,
+        "value": 0
+      },
+      "4,3":{
+        "fixed": true,
+        "value": 6
+      },
+      "4,4":{
+        "fixed": false,
+        "value": 0
+      },
+      "4,5":{
+        "fixed": true,
+        "value": 2
+      },
+      "4,6":{
+        "fixed": false,
+        "value": 0
+      },
+      "4,7":{
+        "fixed": true,
+        "value": 1
+      },
+      "4,8":{
+        "fixed": true,
+        "value": 8
+      },
+
+      "5,0":{
+        "fixed": false,
+        "value": 0
+      },
+      "5,1":{
+        "fixed": true,
+        "value": 5
+      },
+      "5,2":{
+        "fixed": false,
+        "value": 0
+      },
+      "5,3":{
+        "fixed": false,
+        "value": 0
+      },
+      "5,4":{
+        "fixed": true,
+        "value": 3
+      },
+      "5,5":{
+        "fixed": false,
+        "value": 0
+      },
+      "5,6":{
+        "fixed": false,
+        "value": 0
+      },
+      "5,7":{
+        "fixed": true,
+        "value": 9
+      },
+      "5,8":{
+        "fixed": false,
+        "value": 0
+      },
+
+      "6,0":{
+        "fixed": false,
+        "value": 0
+      },
+      "6,1":{
+        "fixed": false,
+        "value": 0
+      },
+      "6,2":{
+        "fixed": false,
+        "value": 0
+      },
+      "6,3":{
+        "fixed": false,
+        "value": 0
+      },
+      "6,4":{
+        "fixed": false,
+        "value": 0
+      },
+      "6,5":{
+        "fixed": false,
+        "value": 0
+      },
+      "6,6":{
+        "fixed": true,
+        "value": 2
+      },
+      "6,7":{
+        "fixed": false,
+        "value": 0
+      },
+      "6,8":{
+        "fixed": false,
+        "value": 0
+      },
+
+      "7,0":{
+        "fixed": false,
+        "value": 0
+      },
+      "7,1":{
+        "fixed": false,
+        "value": 0
+      },
+      "7,2":{
+        "fixed": true,
+        "value": 6
+      },
+      "7,3":{
+        "fixed": false,
+        "value": 0
+      },
+      "7,4":{
+        "fixed": false,
+        "value": 0
+      },
+      "7,5":{
+        "fixed": false,
+        "value": 0
+      },
+      "7,6":{
+        "fixed": true,
+        "value": 8
+      },
+      "7,7":{
+        "fixed": false,
+        "value": 0
+      },
+      "7,8":{
+        "fixed": true,
+        "value": 7
+      },
+
+      "8,0":{
+        "fixed": false,
+        "value": 0
+      },
+      "8,1":{
+        "fixed": false,
+        "value": 0
+      },
+      "8,2":{
+        "fixed": false,
+        "value": 0
+      },
+      "8,3":{
+        "fixed": true,
+        "value": 3
+      },
+      "8,4":{
+        "fixed": true,
+        "value": 1
+      },
+      "8,5":{
+        "fixed": true,
+        "value": 6
+      },
+      "8,6":{
+        "fixed": false,
+        "value": 0
+      },
+      "8,7":{
+        "fixed": true,
+        "value": 5
+      },
+      "8,8":{
+        "fixed": true,
+        "value": 9
+      }
+    }
+  }
+}
