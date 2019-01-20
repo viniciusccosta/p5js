@@ -6,7 +6,7 @@ let w;
 
 let curCell;
 let boxes;
-let difficult = 50;
+let difficult = 33;
 let diffs = new Map();
 
 function setup() {
@@ -19,13 +19,20 @@ function setup() {
 
   // ---------------------------------------------
   // Difficult:
-  diffs.set("easy",   50);  // 50
-  diffs.set("hard",   26);  // 26
-  diffs.set("expert", 17);  // 17
+  diffs.set("iniciante",50);
+  diffs.set("fácil",    40);
+  diffs.set("revista",  33);
+  diffs.set("difícil",  26);
+  diffs.set("expert",   17);
 
   let radio = createRadio("RADIO BUTTON");
+  radio.class("lemon");
   for (let [k, diff] of diffs) {
     radio.option(k);
+  }
+
+  for(let i = 0; i < diffs.size; i++){
+    radio.elt.children[i*2].style["margin"] = "10px";
   }
 
   let btn = createButton("change");
@@ -33,7 +40,7 @@ function setup() {
     changeDifficult(radio);
   });
 
-  let btn2 = createButton("FINISH");
+  let btn2 = createButton("F I N I S H");
   btn2.mousePressed(function() {
     finish();
   });
@@ -121,6 +128,8 @@ function keyPressed() {
 }
 
 function generateGrid() {
+  // TODO: Generate a grid with unique solution!
+
   // Generator:
   let gen = new Generator();
   let map = gen.getMap();
@@ -142,6 +151,7 @@ function generateGrid() {
     }
   }
 
+  // TODO: Don't let fixed cells all together
   // Sudoku it!
   let nonFixedCells = new Set();
 
@@ -247,3 +257,4 @@ function finish() {
 
 // TODO: When there's a conflict, we should highlight those Cells
 // TODO: "dehighlight" a cell when user click on it.
+// TODO: Everytime user change a cell number, check if it's over... :x
