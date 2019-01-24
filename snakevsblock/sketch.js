@@ -1,4 +1,4 @@
-const rows = 3;
+const rows = 4;
 const cols = 5;
 
 let ball; 							// Player
@@ -10,7 +10,6 @@ let universalSpeed = 2; // Used to reduce speed when player hits a block
 function setup() {
   createCanvas(350, 620);
   rectMode(CENTER);
-  imageMode(CENTER);
 
   // Player:
   ball = new Ball(width * 0.5, height * 0.5);
@@ -31,6 +30,8 @@ function setup() {
 function draw() {
   background(200);
 
+	translate(0, height/2 - ball.pos.y);
+
   // Blocks:
   for (let row = 0; row < rows; row++) {
 		let rnd = random(0, 0);
@@ -45,10 +46,10 @@ function draw() {
 				if(block.offscreen){
 					blocks[row][col] = new Block(
 						block.pos.x,
-						-(rows-2)*distMin + rnd,  				// TODO: Should be last of the list, not 0...
+						0 /*block.pos.y - (rows*distMin + blockW/2)*/,
 						blockW,
 						blockW,
-						row);
+						row); // TODO: Generate semi-randomly
 				}
       }
     }
@@ -56,6 +57,7 @@ function draw() {
 
 
   // Player:
+	ball.move();
 	ball.update();
   ball.show();
 }
@@ -63,3 +65,7 @@ function draw() {
 function keyPressed(){
 	ball.move(key, keyCode);
 }
+
+// TODO: Collision
+// TODO: Walls/Obstacles
+// TODO: Food

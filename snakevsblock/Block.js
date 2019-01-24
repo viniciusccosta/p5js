@@ -4,14 +4,14 @@ class Block{
     this.w = w;
     this.h = h;
     this.value = value == null ? 20 : value;
-    this.velocity = createVector(0,universalSpeed);
+    this.velocity = createVector(0,0);
 
     this.offscreen = false;
   }
 
   update(){
     this.velocity.y = universalSpeed;
-    
+
     this.pos.add(this.velocity);
     if(this.pos.y > height + this.h){
       this.offscreen = true;
