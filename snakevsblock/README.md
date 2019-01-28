@@ -1,1 +1,1 @@
-# ballvsblocks_p5js
+# snakevsblock_p5js
