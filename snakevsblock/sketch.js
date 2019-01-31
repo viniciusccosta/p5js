@@ -35,7 +35,7 @@ function setup() {
 				(-row * distMin) + blockW / 2,
 				blockW,
 				blockW,
-				row*rows + col); // TODO: Randomly
+				round(random(1,2))); // TODO: Randomly TODO: Never 0
     }
   }
 	// -------------
@@ -72,6 +72,8 @@ function setup() {
 
       if ( (pair.bodyA.label === 'snake' && pair.bodyB.label !== 'snake')
 			||   (pair.bodyA.label !== 'snake' && pair.bodyB.label === 'snake') ) {
+
+				// TODO: Collided on the bottom ?
 
 				// --------------------------------------
 				// BALL:
