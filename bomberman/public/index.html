@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>bomberman</title>
+
+	<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="libraries/matter.js"></script>
+
+	<script src="sketch.js"></script>
+	<script src="Player.js"></script>
+	<script src="Bomb.js"></script>
+	<script src="Stone.js"></script>
+	<script src="Crate.js"></script>
+	<script src="PowerUp.js"></script>
+
+	<style>
+		body,
+		html {
+			height: 100%;
+			margin: 0;
+		}
+
+		.bg {
+			/* The image used */
+			background-image: url("images/bg.png");
+
+			/* Full height */
+			height: 100%;
+
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+
+</head>
+
+<body>
+<div class="bg"></div>
+</body>
+
+</html>
